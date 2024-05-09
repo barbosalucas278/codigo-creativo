@@ -1,0 +1,63 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(168, 160, 149);
+}
+
+#titulo {
+  font-size: 3em;
+  font-weight: 600;
+}
+#inputDificultad {
+  height: 10%;
+  width: 25%;
+  margin-bottom: 2.5%;
+  border-radius: 2%;
+  border: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+}
+#btnJugar {
+  width: 10%;
+  height: 20vh;
+  border-radius: 50%;
+  border: 0;
+  font-size: 2em;
+}
+
+.ocultar {
+  opacity: 0;
+  transition: 1s;
+}
+
+.btnJugarGrande {
+  background-color: red;
+  width: 20% !important;
+  height: 40vh !important;
+  transition: 1s;
+  color: white;
+}
+.btnJugarInicio {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
+.btnActivo {
+  background-color: darkgoldenrod !important;
+}
+
+.btnCargado {
+  background-color: green !important;
+}
+
+.btnDescargado {
+  background-color: red !important;
+}
